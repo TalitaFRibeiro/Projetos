@@ -1,0 +1,226 @@
+
+body{
+    text-align: center;
+}
+
+section#head{
+    width: 100%;
+    height: 100%;
+    text-align: left;
+
+}
+
+nav.indigo.darken-4{
+    width: 100%;
+}
+
+
+
+section#corposite{
+    text-align: center;
+}
+
+@font-face{
+    font-family: 'Startrek';
+    src: url("sitefonte.TTF");
+}
+
+
+a.col.s2{
+    height: 100%;
+    width: 80vmax;
+ 
+}
+img.logo{
+    height: 100%;
+    width: 5rem;
+}
+   
+#first{
+    height: 22.56rem;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    background-image: url(capa.jpg);
+    background-size: 100% 100%;
+    padding-top: 10vh;
+    display: inline-table;
+    
+}
+
+h1#principal{
+    font-size: 7rem;
+    color: white;
+    font-family: 'Startrek';
+    display: inline-block;
+}
+
+     
+
+p#firstp{
+    color: white;
+    font-size: x-large;
+}
+#CTA{
+    width: 20vmax;
+    height: 3.56rem;
+    display: grid;
+    margin: 0 auto;
+    color: white;
+}
+
+
+h2,h4,h6{
+    font-family: 'Startrek';
+}
+
+
+
+
+#second{
+    height: 10%;
+    width: 100%;
+    justify-content: center;
+    margin: 0 auto;
+    text-align: center;
+}
+
+#boton{
+    width: 25.87vmax;
+    height: 5vh;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+}
+
+h5{
+    font-family: 'Startrek';
+    margin-bottom: 50px;
+    height: 4vmax;
+    margin: auto;
+    padding-bottom: 50px;
+}
+
+#third{
+    width: 100%;
+    height: 100%;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+    background-color: silver;
+}
+    
+
+
+#pictureuno{
+
+    background-image: url(personagens.jpg);
+    background-size: 100% 100%;
+    color: white;
+    padding-top: 200px;
+    padding-left: 17px;
+    padding-right: 50px;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+div > h3{
+    font-size: 2rem;
+}
+div > a{
+    font-size: 2rem;
+}
+
+#picturedois{
+    
+    background-image: url(curiosidades.jpg);
+    background-size: 100% 100%;
+    color: white;
+    padding-top: 200px;
+    margin-left: 10px;
+}
+
+
+
+#carrosel{
+    width: 100%;
+    height: 450px;
+    margin:  auto;
+    text-align: center;
+    padding-top: 35px;
+    padding-left: 40px;
+    padding-bottom: 35px;
+    padding-right: 40px;
+    line-height: 100px;
+    display: inline-block;
+    justify-content: center;
+}
+div.carousel{
+    display: block;
+    width: 100%;
+    height: 55%;
+    text-align: left;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+#formulario{
+    width: 100%;
+    height: 90%;
+    margin: auto;
+    background-color: lightblue;
+}
+
+fieldset{
+    display: inline-block;
+    text-align: left;
+    background-color: #ffffff;
+}
+
+input#icaixa{
+    width: 100%;
+    height: 40%;
+    display: inline-block;
+    margin-left: auto;
+    background-color: #ffffff;
+}
+
+p#partedefora{
+    width: 70%;
+    height: 35%;
+    display: inline-block;
+    background-color: white;
+}
+
+button{
+    display: inline-block;
+    margin-left: auto;
+}
+
+.page-footer {
+    padding-top: 20px;
+    color: #fff;
+    background-color: #1a237e;
+}
+
+div.col.s12 h4{
+    font-family: 'Startrek';
+    font-size: 3.56rem;
+}
+
+
+ul > li {
+
+    list-style-type: none;
+}
+ul.colecao{
+    padding-top: 1vmax;
+
+}    
+li.icones{
+    list-style-type: none;
+    display: inline-block;
+    margin: 0.5vmax;
+}
+

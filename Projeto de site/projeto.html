@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>my site</title>
+    <link rel="stylesheet" href="project.css">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="projeto.js"></script>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+  <!--Nav-->
+    <section class="row"style="padding-left:0px; padding-right:0px;margin: 0;" id="head">
+      <div class="col s12 m12" style="padding-left: 0px; padding-right: 0px;">
+        <nav class="indigo darken-4">
+          
+            <div class="nav-wrapper container">  
+                <a href="startrek.html" class="col s2"> 
+                  <img src="logo.jpg" class="logo" alt="logo">
+                </a>
+                <ul id="slide-out" class=" sidenav">
+                  <li><a href="https://pt.wikipedia.org/wiki/Star_Trek">História</a></li>
+                  <li><a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">Personagens</a></li>
+                  <li><a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/">Curiosidades</a></li>
+                  <li><a href="https://www.trekbrasilis.org/guia-de-episodios/">Episódios</a></li>
+                </ul>
+                <a href="#" data-target="slide-out" class="sidenav-trigger right"><i class="material-icons">menu</i></a>
+                  <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li><a href="https://pt.wikipedia.org/wiki/Star_Trek">História</a></li>
+                    <li><a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">Personagens</a></li>
+                    <li><a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/">Curiosidades</a></li>
+                    <li><a href="https://www.trekbrasilis.org/guia-de-episodios/">Episódios</a></li>
+                  </ul>
+              </div>
+            </nav>      
+          </div>
+    </section>
+    <!--Primeiro Conteúdo-->
+    <section  id="corposite">
+        <section>
+          <div class="card-panel" id="first">
+            <div class="row">
+              <div class="col s12" style="text-align: center;">
+             
+                    <h1 id="principal">Star Trek</h1>
+                    <p class="col s12" id="firstp">Para saber mais sobre essa franquia aperte o botão abaixo</p>
+                    <a href="https://pt.wikipedia.org/wiki/Star_Trek" id="CTA" class="waves-effect waves-light btn-large indigo darken-4 ">História
+                    </a>
+          
+              
+                </div>
+              </div>
+            </div>
+        </section>
+        <section>
+            <!--Segundo Conteúdo para pc-->
+              <div class="card-panel" style="margin-bottom: 0px;">
+                <div class="row" style="margin: 0;width: 100%;padding-left: 0px;padding-right: 0px;">
+                    <div class="col s12 m12 l12" id="second">
+                          <h2 style="margin-top: 0px; margin-bottom: 0px;">Mais alternativas</h2>
+                        <div class="col s12"> 
+                              <a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Personagens</a>
+                              <a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Curiosidades</a>
+                              <a href="https://www.trekbrasilis.org/guia-de-episodios/" class="waves-effect waves-light btn-small indigo darken-4" id="boton">Episódios</a>
+                        </div>
+                    </div>
+                  </div>
+                </div>
+          </section> 
+                
+          <!--Terceiro Conteúdo-->
+            <section  id="third">
+              <div class="card-panel"style="background-color: #eeeeee ;">
+                <div class="row" style="background-color: #eeeeee ;">
+                    <div class="container">
+                      <div class="col s12 l5" id="pictureuno">
+                        <h3>Personagens</h3>
+                        <a href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">link</a>
+                      </div>
+                      <div class="col s12 l5" id="picturedois">
+                        <h3>Curiosidades</h3>
+                        <a href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/">link</a>
+                      </div>
+                    </div>
+                </div>
+              </div>
+
+          </section>
+          <!--Quarto conteúdo: Carrossel-->
+            <section class="card-panel" id="carrosel">
+                      <h2 >Personagens</h2>
+                      <h4>Alguns personagens de Star Trek</h4>
+                      <div class="carousel">
+                        <a class="carousel-item" href="#"><img src="kirk.jpeg"></a>
+                        <a class="carousel-item" href="#"><img src="spock.jpeg"></a>
+                        <a class="carousel-item" href="#"><img src="uhura.jpeg"></a>
+                        <a class="carousel-item" href="#"><img src="scott.jpeg"></a>
+                        <a class="carousel-item" href="#"><img src="bones.jpeg"></a>
+                      </div>
+            </section>
+            <section class="card-panel" id="formulario">
+              <div class="container">
+                <div class="row">   
+                  <div class="col s12">
+                    <h4>Inscreva-se</h4>
+                    <form action="/meuhandler" method="GET">
+                      <fieldset>
+                        <p id="partedefora"><input type="email" name="ncaixa" id="icaixa" size="40" maxlength="40" placeholder="E-mail"/></p>
+                        <button type="submit" class="waves-effect waves-light btn-small indigo darken-4" >Submit</button>
+                      </fieldset>
+                    </form>
+                  </div>
+                </div>
+              </div>
+            </section>
+            <!--Rodapé do site-->
+              <section id="foot">
+                  <footer class="page-footer indigo darken-4">
+                    <div class="row">
+                              <div class="col s12 l4">
+                                 <h5>Mapa do site</h5>
+                                 <ul>
+                                    <li><a class="grey-text text-lighten-3" href="https://pt.wikipedia.org/wiki/Star_Trek">História</a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://pt.wikipedia.org/wiki/Categoria:Personagens_de_Star_Trek">Personagens</a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://www.coxinhanerd.com.br/35-curiosidades-star-trek/">Curiosidades</a></li>
+                                    <li><a class="grey-text text-lighten-3" href="https://www.trekbrasilis.org/guia-de-episodios/">Episódios</a></li>
+                                  </ul>
+                                </div>
+                                <div class="col s12 l4"> 
+                                    <h5>Fan-club Address</h5>
+                                    <p>Avenida das Américas n° 1555 - Barra da Tijuca, Rio de Janeiro, Brasil</p>
+                                </div>  
+                                <div class="col s12 l4">
+                                  <h5>Redes sociais</h5>
+                                  <ul class="colecao">
+                                    <li class="icones"><a class="grey-text text-lighten-3" href="https://web.whatsapp.com/"><i class="fab fa-whatsapp small" id="simbols"></i></a></li>
+                                      <li class="icones"><a class="grey-text text-lighten-3" href="https://www.facebook.com/"><i class="fab fa-facebook-square small"></i></a></li>
+                                      <li class="icones"><a class="grey-text text-lighten-3" href="https://twitter.com/"><i class="fab fa-twitter-square small"></i></a></li>
+                                      <li class="icones"><a class="grey-text text-lighten-3" href="https://www.instagram.com/?hl=pt-br"><i class="fab fa-instagram small"></i></a></li>
+                                  </ul> 
+                                </div>    
+                      </div>         
+                  </footer>
+              </section>
+      </section>
+
+</body>
+</html>
